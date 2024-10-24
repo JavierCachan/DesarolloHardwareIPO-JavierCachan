@@ -152,3 +152,7 @@ footer nav a {
 footer nav a:hover {
     color: #ff7a00;
 }
+
+section {
+    scroll-margin-top: 165px;
+}
