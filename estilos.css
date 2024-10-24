@@ -1,0 +1,111 @@
+#cuerpo {
+    /*border: 2px solid black; */
+    margin: 140px;
+}
+
+.menu-horizontal ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* El espacio entre el contenido de un elemento y su borde es 0 */
+    display: flex; /* Se pone para poder utilizar los elementos del flexbox, como justify-content */
+    justify-content: center;
+} 
+
+.menu-horizontal li {
+    margin-right: 15px; /* Espacio entre los elementos */
+    display: inline; 
+}
+
+.menu-horizontal a {
+    text-decoration: none;
+    color: #6119e7;
+}
+
+.menu-horizontal {
+    margin-bottom: 10px;
+}
+
+.menu-horizontal a:hover {
+    color: #ff7a00;
+}
+
+header {
+    position: fixed; /* Para que el header quede fijado en la pantalla */
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8); /* Sombra para dar profundidad */
+}
+
+#informacion {
+    margin-top: 165px;
+}
+
+section {
+    scroll-margin-top: 165px;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center; /* Así lo estoy centrando horizontalmente */
+    align-items: center; /* Así lo estoy centrando verticalmente */
+}
+
+
+.evolucion {
+    display: flex; /* Utilizando el flexbox, consigo alinear el contenido en horizontal */
+    justify-content: space-between;
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+
+.texto-evolucion {
+    flex: 1;
+    margin-right: 30px;
+    margin-top: 0;
+    width: 100%;
+}
+
+#imagen-mouth {
+    display: flex;
+    flex: 1;
+    margin-right: 30px;
+}
+
+.texto-evolucion2 {
+    flex: 1;
+    margin-left: 30px;
+    margin-top: 0;
+    width: 100%;
+}
+
+.tituloContrario {
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+    
+}
+
+#iconos-contras {
+    display: flex;
+    justify-content: space-between;
+}
+
+#texto-contras {
+    margin-right: 30px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+p {
+    line-height: 1.9;
+}
+
+li {
+    line-height: 1.9;
+}
